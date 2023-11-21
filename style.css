@@ -1,0 +1,125 @@
+:root {
+    background-color: rgb(51, 44, 240);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/*header begins*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 5px;
+    background-color: hsl(43, 97%, 50%);
+}
+
+.title {
+    font-family: 'dotgothic16', Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 1000;
+    color:black;
+}
+
+/* header ends here*/
+
+.info h1, h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.info h1 {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.scorecontainers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#playersign, #computersign {
+    font-size: 85px;
+    padding-bottom: 10px;
+}
+
+.scorebox {
+    max-width: 200px;
+}
+
+.score {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    color: whitesmoke;
+}
+
+/* scorebox ends here */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    gap: 50px;
+}
+
+.btnsquare {
+    width: 160px;
+    height: 160px;
+    font-size: 90px;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*button ends here */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: whitesmoke;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+/* footer ends here */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 550px) {
+    .title {
+      font-size: 18px;
+    }
+  
+    .score-info {
+      font-size: 26px;
+    }
+  
+    .buttons {
+      gap: 10px;
+    }
+  
+    .btnsquare {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .sign {
+      font-size: 50px;
+    }
+  }
