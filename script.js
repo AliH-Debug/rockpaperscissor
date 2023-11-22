@@ -1,5 +1,3 @@
-console.log("JavaScript file is loaded.");
-
 // Game variables
 let playerScore = 0;
 let computerScore = 0;
